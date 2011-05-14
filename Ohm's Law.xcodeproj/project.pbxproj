@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CC9B326137F448900EC912D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B325137F448900EC912D /* UIKit.framework */; };
+		9CC9B328137F448900EC912D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B327137F448900EC912D /* Foundation.framework */; };
+		9CC9B32A137F448900EC912D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B329137F448900EC912D /* CoreGraphics.framework */; };
+		9CC9B330137F448900EC912D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B32E137F448900EC912D /* InfoPlist.strings */; };
+		9CC9B333137F448A00EC912D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B332137F448A00EC912D /* main.m */; };
+		9CC9B336137F448A00EC912D /* Ohm_s_LawAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B335137F448A00EC912D /* Ohm_s_LawAppDelegate.m */; };
+		9CC9B339137F448A00EC912D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B337137F448A00EC912D /* MainWindow.xib */; };
+		9CC9B33C137F448A00EC912D /* Ohm_s_LawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B33B137F448A00EC912D /* Ohm_s_LawViewController.m */; };
+		9CC9B33F137F448A00EC912D /* Ohm_s_LawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B33D137F448A00EC912D /* Ohm_s_LawViewController.xib */; };
+		9CC9B346137F448B00EC912D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B325137F448900EC912D /* UIKit.framework */; };
+		9CC9B347137F448B00EC912D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B327137F448900EC912D /* Foundation.framework */; };
+		9CC9B348137F448B00EC912D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B329137F448900EC912D /* CoreGraphics.framework */; };
+		9CC9B350137F448B00EC912D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B34E137F448B00EC912D /* InfoPlist.strings */; };
+		9CC9B353137F448B00EC912D /* Ohm_s_LawTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */; };
+		9CC9B355137F448B00EC912D /* Ohm_s_LawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC9B349137F448B00EC912D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC9B318137F448700EC912D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC9B320137F448800EC912D;
+			remoteInfo = "Ohm's Law";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CC9B321137F448900EC912D /* Ohm's Law.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ohm's Law.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC9B325137F448900EC912D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CC9B327137F448900EC912D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CC9B329137F448900EC912D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CC9B32D137F448900EC912D /* Ohm's Law-Info.plist */ = {isa = PBXFileReference; path = "Ohm's Law-Info.plist"; sourceTree = "<group>"; };
+		9CC9B32F137F448900EC912D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CC9B331137F448900EC912D /* Ohm's Law-Prefix.pch */ = {isa = PBXFileReference; path = "Ohm's Law-Prefix.pch"; sourceTree = "<group>"; };
+		9CC9B332137F448A00EC912D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC9B334137F448A00EC912D /* Ohm_s_LawAppDelegate.h */ = {isa = PBXFileReference; path = Ohm_s_LawAppDelegate.h; sourceTree = "<group>"; };
+		9CC9B335137F448A00EC912D /* Ohm_s_LawAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ohm_s_LawAppDelegate.m; sourceTree = "<group>"; };
+		9CC9B338137F448A00EC912D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9CC9B33A137F448A00EC912D /* Ohm_s_LawViewController.h */ = {isa = PBXFileReference; path = Ohm_s_LawViewController.h; sourceTree = "<group>"; };
+		9CC9B33B137F448A00EC912D /* Ohm_s_LawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ohm_s_LawViewController.m; sourceTree = "<group>"; };
+		9CC9B33E137F448A00EC912D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ohm_s_LawViewController.xib; sourceTree = "<group>"; };
+		9CC9B345137F448B00EC912D /* Ohm's LawTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ohm's LawTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC9B34D137F448B00EC912D /* Ohm's LawTests-Info.plist */ = {isa = PBXFileReference; path = "Ohm's LawTests-Info.plist"; sourceTree = "<group>"; };
+		9CC9B34F137F448B00EC912D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CC9B351137F448B00EC912D /* Ohm's LawTests-Prefix.pch */ = {isa = PBXFileReference; path = "Ohm's LawTests-Prefix.pch"; sourceTree = "<group>"; };
+		9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ohm_s_LawTests.h; sourceTree = "<group>"; };
+		9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ohm_s_LawTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC9B31E137F448800EC912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B326137F448900EC912D /* UIKit.framework in Frameworks */,
+				9CC9B328137F448900EC912D /* Foundation.framework in Frameworks */,
+				9CC9B32A137F448900EC912D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC9B341137F448A00EC912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B346137F448B00EC912D /* UIKit.framework in Frameworks */,
+				9CC9B347137F448B00EC912D /* Foundation.framework in Frameworks */,
+				9CC9B348137F448B00EC912D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC9B316137F448700EC912D = {
+			isa = PBXGroup;
+			children = (
+				9CC9B32B137F448900EC912D /* Ohm's Law */,
+				9CC9B34B137F448B00EC912D /* Ohm's LawTests */,
+				9CC9B324137F448900EC912D /* Frameworks */,
+				9CC9B322137F448900EC912D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC9B322137F448900EC912D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B321137F448900EC912D /* Ohm's Law.app */,
+				9CC9B345137F448B00EC912D /* Ohm's LawTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC9B324137F448900EC912D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B325137F448900EC912D /* UIKit.framework */,
+				9CC9B327137F448900EC912D /* Foundation.framework */,
+				9CC9B329137F448900EC912D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC9B32B137F448900EC912D /* Ohm's Law */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B334137F448A00EC912D /* Ohm_s_LawAppDelegate.h */,
+				9CC9B335137F448A00EC912D /* Ohm_s_LawAppDelegate.m */,
+				9CC9B337137F448A00EC912D /* MainWindow.xib */,
+				9CC9B33A137F448A00EC912D /* Ohm_s_LawViewController.h */,
+				9CC9B33B137F448A00EC912D /* Ohm_s_LawViewController.m */,
+				9CC9B33D137F448A00EC912D /* Ohm_s_LawViewController.xib */,
+				9CC9B32C137F448900EC912D /* Supporting Files */,
+			);
+			path = "Ohm's Law";
+			sourceTree = "<group>";
+		};
+		9CC9B32C137F448900EC912D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B32D137F448900EC912D /* Ohm's Law-Info.plist */,
+				9CC9B32E137F448900EC912D /* InfoPlist.strings */,
+				9CC9B331137F448900EC912D /* Ohm's Law-Prefix.pch */,
+				9CC9B332137F448A00EC912D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC9B34B137F448B00EC912D /* Ohm's LawTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */,
+				9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */,
+				9CC9B34C137F448B00EC912D /* Supporting Files */,
+			);
+			path = "Ohm's LawTests";
+			sourceTree = "<group>";
+		};
+		9CC9B34C137F448B00EC912D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9B34D137F448B00EC912D /* Ohm's LawTests-Info.plist */,
+				9CC9B34E137F448B00EC912D /* InfoPlist.strings */,
+				9CC9B351137F448B00EC912D /* Ohm's LawTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC9B320137F448800EC912D /* Ohm's Law */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC9B358137F448B00EC912D /* Build configuration list for PBXNativeTarget "Ohm's Law" */;
+			buildPhases = (
+				9CC9B31D137F448800EC912D /* Sources */,
+				9CC9B31E137F448800EC912D /* Frameworks */,
+				9CC9B31F137F448800EC912D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ohm's Law";
+			productName = "Ohm's Law";
+			productReference = 9CC9B321137F448900EC912D /* Ohm's Law.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CC9B344137F448A00EC912D /* Ohm's LawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC9B35B137F448B00EC912D /* Build configuration list for PBXNativeTarget "Ohm's LawTests" */;
+			buildPhases = (
+				9CC9B340137F448A00EC912D /* Sources */,
+				9CC9B341137F448A00EC912D /* Frameworks */,
+				9CC9B342137F448A00EC912D /* Resources */,
+				9CC9B343137F448A00EC912D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC9B34A137F448B00EC912D /* PBXTargetDependency */,
+			);
+			name = "Ohm's LawTests";
+			productName = "Ohm's LawTests";
+			productReference = 9CC9B345137F448B00EC912D /* Ohm's LawTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC9B318137F448700EC912D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9CC9B31B137F448700EC912D /* Build configuration list for PBXProject "Ohm's Law" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CC9B316137F448700EC912D;
+			productRefGroup = 9CC9B322137F448900EC912D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC9B320137F448800EC912D /* Ohm's Law */,
+				9CC9B344137F448A00EC912D /* Ohm's LawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC9B31F137F448800EC912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B330137F448900EC912D /* InfoPlist.strings in Resources */,
+				9CC9B339137F448A00EC912D /* MainWindow.xib in Resources */,
+				9CC9B33F137F448A00EC912D /* Ohm_s_LawViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC9B342137F448A00EC912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B350137F448B00EC912D /* InfoPlist.strings in Resources */,
+				9CC9B353137F448B00EC912D /* Ohm_s_LawTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC9B343137F448A00EC912D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC9B31D137F448800EC912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B333137F448A00EC912D /* main.m in Sources */,
+				9CC9B336137F448A00EC912D /* Ohm_s_LawAppDelegate.m in Sources */,
+				9CC9B33C137F448A00EC912D /* Ohm_s_LawViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC9B340137F448A00EC912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC9B355137F448B00EC912D /* Ohm_s_LawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC9B34A137F448B00EC912D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC9B320137F448800EC912D /* Ohm's Law */;
+			targetProxy = 9CC9B349137F448B00EC912D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CC9B32E137F448900EC912D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC9B32F137F448900EC912D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CC9B337137F448A00EC912D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC9B338137F448A00EC912D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9CC9B33D137F448A00EC912D /* Ohm_s_LawViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC9B33E137F448A00EC912D /* en */,
+			);
+			name = Ohm_s_LawViewController.xib;
+			sourceTree = "<group>";
+		};
+		9CC9B34E137F448B00EC912D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC9B34F137F448B00EC912D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC9B356137F448B00EC912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CC9B357137F448B00EC912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9CC9B359137F448B00EC912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ohm's Law/Ohm's Law-Prefix.pch";
+				INFOPLIST_FILE = "Ohm's Law/Ohm's Law-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CC9B35A137F448B00EC912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ohm's Law/Ohm's Law-Prefix.pch";
+				INFOPLIST_FILE = "Ohm's Law/Ohm's Law-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9CC9B35C137F448B00EC912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ohm's Law.app/Ohm's Law";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ohm's LawTests/Ohm's LawTests-Prefix.pch";
+				INFOPLIST_FILE = "Ohm's LawTests/Ohm's LawTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9CC9B35D137F448B00EC912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ohm's Law.app/Ohm's Law";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ohm's LawTests/Ohm's LawTests-Prefix.pch";
+				INFOPLIST_FILE = "Ohm's LawTests/Ohm's LawTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC9B31B137F448700EC912D /* Build configuration list for PBXProject "Ohm's Law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC9B356137F448B00EC912D /* Debug */,
+				9CC9B357137F448B00EC912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC9B358137F448B00EC912D /* Build configuration list for PBXNativeTarget "Ohm's Law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC9B359137F448B00EC912D /* Debug */,
+				9CC9B35A137F448B00EC912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CC9B35B137F448B00EC912D /* Build configuration list for PBXNativeTarget "Ohm's LawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC9B35C137F448B00EC912D /* Debug */,
+				9CC9B35D137F448B00EC912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC9B318137F448700EC912D /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ohm's LawTests' target in the 'Ohm's LawTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
