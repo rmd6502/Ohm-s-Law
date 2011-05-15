@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Ohm_s_LawViewController : UIViewController {
+@interface Ohm_s_LawViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource> {
     
 }
 
+@property (nonatomic,assign) IBOutlet UIPickerView *formulaPicker;
+
+- (IBAction)chooseFormula:(id)sender;
 @end
