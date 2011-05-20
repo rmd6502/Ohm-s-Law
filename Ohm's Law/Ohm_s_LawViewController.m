@@ -9,6 +9,7 @@
 #import <objc/runtime.h>
 #import "Ohm_s_LawViewController.h"
 #import "OhmViewController.h"
+#import "PowerViewController.h"
 
 static struct Functions {
     NSString *funcName;
@@ -16,6 +17,7 @@ static struct Functions {
 } functions[] = {
     {@"Ohm's Law", @"OhmViewController"},
     {@"LED Dropping Resistor", @"LEDViewController"},
+    {@"Power Calculations", @"PowerViewController"},
 };
 
 
@@ -65,7 +67,7 @@ static struct Functions {
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
-    return 2;
+    return sizeof(functions)/sizeof(struct Functions);
 }
 
 #pragma mark - UIPickerViewDelegate

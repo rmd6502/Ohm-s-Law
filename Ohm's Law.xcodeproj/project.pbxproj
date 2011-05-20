@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		83E56CD31385F01900037B24 /* ard_card_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E56CD21385F01900037B24 /* ard_card_top.png */; };
+		83E56CD81385F14900037B24 /* PowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E56CD61385F14900037B24 /* PowerViewController.m */; };
+		83E56CD91385F14900037B24 /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E56CD71385F14900037B24 /* PowerViewController.xib */; };
 		9C2DF7A0137F594600545A9D /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DF79F137F594600545A9D /* backbutton.png */; };
 		9C4106AC1380185C0036699D /* LED Circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4106AB1380185B0036699D /* LED Circuit.png */; };
 		9C4106B11380188A0036699D /* LEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4106AF1380188A0036699D /* LEDViewController.m */; };
@@ -44,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		83E56CD21385F01900037B24 /* ard_card_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ard_card_top.png; sourceTree = "<group>"; };
+		83E56CD51385F14900037B24 /* PowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerViewController.h; sourceTree = "<group>"; };
+		83E56CD61385F14900037B24 /* PowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerViewController.m; sourceTree = "<group>"; };
+		83E56CD71385F14900037B24 /* PowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
 		9C2DF79F137F594600545A9D /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
 		9C4106AB1380185B0036699D /* LED Circuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LED Circuit.png"; sourceTree = "<group>"; };
 		9C4106AE1380188A0036699D /* LEDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDViewController.h; sourceTree = "<group>"; };
@@ -144,6 +149,9 @@
 				9C4106AE1380188A0036699D /* LEDViewController.h */,
 				9C4106AF1380188A0036699D /* LEDViewController.m */,
 				9C4106B01380188A0036699D /* LEDViewController.xib */,
+				83E56CD51385F14900037B24 /* PowerViewController.h */,
+				83E56CD61385F14900037B24 /* PowerViewController.m */,
+				83E56CD71385F14900037B24 /* PowerViewController.xib */,
 			);
 			path = "Ohm's Law";
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 				9C4106AC1380185C0036699D /* LED Circuit.png in Resources */,
 				9C4106B21380188A0036699D /* LEDViewController.xib in Resources */,
 				83E56CD31385F01900037B24 /* ard_card_top.png in Resources */,
+				83E56CD91385F14900037B24 /* PowerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +308,7 @@
 				9CC9B33C137F448A00EC912D /* Ohm_s_LawViewController.m in Sources */,
 				9CC9B363137F487200EC912D /* OhmViewController.m in Sources */,
 				9C4106B11380188A0036699D /* LEDViewController.m in Sources */,
+				83E56CD81385F14900037B24 /* PowerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
