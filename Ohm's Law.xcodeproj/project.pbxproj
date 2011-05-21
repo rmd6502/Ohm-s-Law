@@ -14,6 +14,7 @@
 		9C4106AC1380185C0036699D /* LED Circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4106AB1380185B0036699D /* LED Circuit.png */; };
 		9C4106B11380188A0036699D /* LEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4106AF1380188A0036699D /* LEDViewController.m */; };
 		9C4106B21380188A0036699D /* LEDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4106B01380188A0036699D /* LEDViewController.xib */; };
+		9CC9103B1387450F000BB215 /* UIScrollView+RMD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9103A1387450F000BB215 /* UIScrollView+RMD.m */; };
 		9CC9B326137F448900EC912D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B325137F448900EC912D /* UIKit.framework */; };
 		9CC9B328137F448900EC912D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B327137F448900EC912D /* Foundation.framework */; };
 		9CC9B32A137F448900EC912D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9B329137F448900EC912D /* CoreGraphics.framework */; };
@@ -54,6 +55,8 @@
 		9C4106AE1380188A0036699D /* LEDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDViewController.h; sourceTree = "<group>"; };
 		9C4106AF1380188A0036699D /* LEDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDViewController.m; sourceTree = "<group>"; };
 		9C4106B01380188A0036699D /* LEDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDViewController.xib; sourceTree = "<group>"; };
+		9CC910391387450F000BB215 /* UIScrollView+RMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+RMD.h"; sourceTree = "<group>"; };
+		9CC9103A1387450F000BB215 /* UIScrollView+RMD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+RMD.m"; sourceTree = "<group>"; };
 		9CC9B321137F448900EC912D /* Ohm's Law.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ohm's Law.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC9B325137F448900EC912D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9CC9B327137F448900EC912D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +155,8 @@
 				83E56CD51385F14900037B24 /* PowerViewController.h */,
 				83E56CD61385F14900037B24 /* PowerViewController.m */,
 				83E56CD71385F14900037B24 /* PowerViewController.xib */,
+				9CC910391387450F000BB215 /* UIScrollView+RMD.h */,
+				9CC9103A1387450F000BB215 /* UIScrollView+RMD.m */,
 			);
 			path = "Ohm's Law";
 			sourceTree = "<group>";
@@ -235,6 +240,9 @@
 /* Begin PBXProject section */
 		9CC9B318137F448700EC912D /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = 9CC9B31B137F448700EC912D /* Build configuration list for PBXProject "Ohm's Law" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -309,6 +317,7 @@
 				9CC9B363137F487200EC912D /* OhmViewController.m in Sources */,
 				9C4106B11380188A0036699D /* LEDViewController.m in Sources */,
 				83E56CD81385F14900037B24 /* PowerViewController.m in Sources */,
+				9CC9103B1387450F000BB215 /* UIScrollView+RMD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +385,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -390,6 +400,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;

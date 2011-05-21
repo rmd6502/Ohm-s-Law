@@ -69,19 +69,19 @@
     float pVal = nanf("p");
     NSUInteger c = 0;
     
-    if (vField.text) {
+    if ([vField.text length]) {
         vVal = [vField.text floatValue] * powf(.001, [vUnit selectedSegmentIndex]);
         ++c;
     }
-    if (iField.text) {
+    if ([iField.text length]) {
         iVal = [iField.text floatValue] * powf(.001, [iUnit selectedSegmentIndex]);
         ++c;
     }
-    if (rField.text) {
+    if ([rField.text length]) {
         rVal = [rField.text floatValue] * powf(1000, [rUnit selectedSegmentIndex]);
         ++c;
     }
-    if (pField.text) {
+    if ([pField.text length]) {
         pVal = [pField.text floatValue] * powf(1000, 1.0f - [pUnit selectedSegmentIndex]);
         ++c;
     }
@@ -115,10 +115,34 @@
             pVal = vVal * iVal;
         }
         
-        CGFloat l10 = logf(10.0f);
-        CGFloat magnitude = logf(vVal) / l10;
+        CGFloat l10 = 3.0f * logf(10.0f);
+        CGFloat magnitude = -MIN(MAX(floorf(logf(vVal) / l10), -2), 0);
+        vVal *= pow(1000, magnitude);
+        vUnit.selectedSegmentIndex = magnitude;
         vField.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:vVal] numberStyle:NSNumberFormatterDecimalStyle];
+        
+        magnitude = -MIN(MAX(floorf(logf(iVal) / l10), -2), 0);
+        iVal *= pow(1000, magnitude);
+        iUnit.selectedSegmentIndex = magnitude;
+        iField.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:iVal] numberStyle:NSNumberFormatterDecimalStyle];
+        
+        magnitude = MAX(MIN(floorf(logf(rVal) / l10), 2), 0);
+        rVal *= pow(.001, magnitude);
+        rUnit.selectedSegmentIndex = magnitude;
+        rField.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:rVal] numberStyle:NSNumberFormatterDecimalStyle];
+        
+        magnitude = MIN(MAX(floorf(logf(pVal) / l10), -2), 1);
+        pVal *= pow(.001, magnitude);
+        pUnit.selectedSegmentIndex = 1 - magnitude;
+        pField.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:pVal] numberStyle:NSNumberFormatterDecimalStyle];
     }
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    [vField resignFirstResponder];
+    [iField resignFirstResponder];
+    [rField resignFirstResponder];
+    [pField resignFirstResponder];
 }
 
 - (IBAction)goBack:(id)sender {
