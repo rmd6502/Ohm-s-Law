@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83E56CD31385F01900037B24 /* ard_card_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E56CD21385F01900037B24 /* ard_card_top.png */; };
+		83E56CD81385F14900037B24 /* PowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E56CD61385F14900037B24 /* PowerViewController.m */; };
+		83E56CD91385F14900037B24 /* PowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E56CD71385F14900037B24 /* PowerViewController.xib */; };
 		9C2DF7A0137F594600545A9D /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2DF79F137F594600545A9D /* backbutton.png */; };
 		9C4106AC1380185C0036699D /* LED Circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4106AB1380185B0036699D /* LED Circuit.png */; };
 		9C4106B11380188A0036699D /* LEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4106AF1380188A0036699D /* LEDViewController.m */; };
@@ -26,7 +29,6 @@
 		9CC9B350137F448B00EC912D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B34E137F448B00EC912D /* InfoPlist.strings */; };
 		9CC9B353137F448B00EC912D /* Ohm_s_LawTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */; };
 		9CC9B355137F448B00EC912D /* Ohm_s_LawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */; };
-		9CC9B35F137F467B00EC912D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B35E137F467B00EC912D /* background.png */; };
 		9CC9B363137F487200EC912D /* OhmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B361137F487200EC912D /* OhmViewController.m */; };
 		9CC9B364137F487200EC912D /* OhmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B362137F487200EC912D /* OhmViewController.xib */; };
 		9CC9B366137F508F00EC912D /* ohmcircuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B365137F508F00EC912D /* ohmcircuit.png */; };
@@ -43,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83E56CD21385F01900037B24 /* ard_card_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ard_card_top.png; sourceTree = "<group>"; };
+		83E56CD51385F14900037B24 /* PowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerViewController.h; sourceTree = "<group>"; };
+		83E56CD61385F14900037B24 /* PowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerViewController.m; sourceTree = "<group>"; };
+		83E56CD71385F14900037B24 /* PowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PowerViewController.xib; sourceTree = "<group>"; };
 		9C2DF79F137F594600545A9D /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
 		9C4106AB1380185B0036699D /* LED Circuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LED Circuit.png"; sourceTree = "<group>"; };
 		9C4106AE1380188A0036699D /* LEDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDViewController.h; sourceTree = "<group>"; };
@@ -68,7 +74,6 @@
 		9CC9B351137F448B00EC912D /* Ohm's LawTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ohm's LawTests-Prefix.pch"; sourceTree = "<group>"; };
 		9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ohm_s_LawTests.h; sourceTree = "<group>"; };
 		9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ohm_s_LawTests.m; sourceTree = "<group>"; };
-		9CC9B35E137F467B00EC912D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../Desktop/background.png; sourceTree = "<group>"; };
 		9CC9B360137F487200EC912D /* OhmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OhmViewController.h; sourceTree = "<group>"; };
 		9CC9B361137F487200EC912D /* OhmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OhmViewController.m; sourceTree = "<group>"; };
 		9CC9B362137F487200EC912D /* OhmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OhmViewController.xib; sourceTree = "<group>"; };
@@ -144,6 +149,9 @@
 				9C4106AE1380188A0036699D /* LEDViewController.h */,
 				9C4106AF1380188A0036699D /* LEDViewController.m */,
 				9C4106B01380188A0036699D /* LEDViewController.xib */,
+				83E56CD51385F14900037B24 /* PowerViewController.h */,
+				83E56CD61385F14900037B24 /* PowerViewController.m */,
+				83E56CD71385F14900037B24 /* PowerViewController.xib */,
 			);
 			path = "Ohm's Law";
 			sourceTree = "<group>";
@@ -151,7 +159,7 @@
 		9CC9B32C137F448900EC912D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CC9B35E137F467B00EC912D /* background.png */,
+				83E56CD21385F01900037B24 /* ard_card_top.png */,
 				9C4106AB1380185B0036699D /* LED Circuit.png */,
 				9C2DF79F137F594600545A9D /* backbutton.png */,
 				9CC9B365137F508F00EC912D /* ohmcircuit.png */,
@@ -253,12 +261,13 @@
 				9CC9B330137F448900EC912D /* InfoPlist.strings in Resources */,
 				9CC9B339137F448A00EC912D /* MainWindow.xib in Resources */,
 				9CC9B33F137F448A00EC912D /* Ohm_s_LawViewController.xib in Resources */,
-				9CC9B35F137F467B00EC912D /* background.png in Resources */,
 				9CC9B364137F487200EC912D /* OhmViewController.xib in Resources */,
 				9CC9B366137F508F00EC912D /* ohmcircuit.png in Resources */,
 				9C2DF7A0137F594600545A9D /* backbutton.png in Resources */,
 				9C4106AC1380185C0036699D /* LED Circuit.png in Resources */,
 				9C4106B21380188A0036699D /* LEDViewController.xib in Resources */,
+				83E56CD31385F01900037B24 /* ard_card_top.png in Resources */,
+				83E56CD91385F14900037B24 /* PowerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +308,7 @@
 				9CC9B33C137F448A00EC912D /* Ohm_s_LawViewController.m in Sources */,
 				9CC9B363137F487200EC912D /* OhmViewController.m in Sources */,
 				9C4106B11380188A0036699D /* LEDViewController.m in Sources */,
+				83E56CD81385F14900037B24 /* PowerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

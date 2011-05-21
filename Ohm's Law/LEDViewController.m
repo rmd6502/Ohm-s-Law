@@ -106,7 +106,7 @@
                 iled.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:iledval] numberStyle:NSNumberFormatterDecimalStyle];
             }
         } else if (isnan(vbatval)) {
-            iled.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:vledval + iledval * rval] numberStyle:NSNumberFormatterDecimalStyle];
+            vbat.text = [NSNumberFormatter localizedStringFromNumber:[NSNumber numberWithFloat:vledval + iledval * rval] numberStyle:NSNumberFormatterDecimalStyle];
         } else if (isnan(rval)) {
             if (rval == 0) {
                 error = @"I can't be 0";
