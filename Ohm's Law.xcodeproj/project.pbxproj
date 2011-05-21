@@ -26,7 +26,7 @@
 		9CC9B350137F448B00EC912D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B34E137F448B00EC912D /* InfoPlist.strings */; };
 		9CC9B353137F448B00EC912D /* Ohm_s_LawTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */; };
 		9CC9B355137F448B00EC912D /* Ohm_s_LawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */; };
-		9CC9B35F137F467B00EC912D /* ard_card_top.pdf copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B35E137F467B00EC912D /* ard_card_top.pdf copy.png */; };
+		9CC9B35F137F467B00EC912D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B35E137F467B00EC912D /* background.png */; };
 		9CC9B363137F487200EC912D /* OhmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC9B361137F487200EC912D /* OhmViewController.m */; };
 		9CC9B364137F487200EC912D /* OhmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B362137F487200EC912D /* OhmViewController.xib */; };
 		9CC9B366137F508F00EC912D /* ohmcircuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC9B365137F508F00EC912D /* ohmcircuit.png */; };
@@ -68,7 +68,7 @@
 		9CC9B351137F448B00EC912D /* Ohm's LawTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ohm's LawTests-Prefix.pch"; sourceTree = "<group>"; };
 		9CC9B352137F448B00EC912D /* Ohm_s_LawTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ohm_s_LawTests.h; sourceTree = "<group>"; };
 		9CC9B354137F448B00EC912D /* Ohm_s_LawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ohm_s_LawTests.m; sourceTree = "<group>"; };
-		9CC9B35E137F467B00EC912D /* ard_card_top.pdf copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ard_card_top.pdf copy.png"; path = "../../../Desktop/ard_card_top.pdf copy.png"; sourceTree = "<group>"; };
+		9CC9B35E137F467B00EC912D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../Desktop/background.png; sourceTree = "<group>"; };
 		9CC9B360137F487200EC912D /* OhmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OhmViewController.h; sourceTree = "<group>"; };
 		9CC9B361137F487200EC912D /* OhmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OhmViewController.m; sourceTree = "<group>"; };
 		9CC9B362137F487200EC912D /* OhmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OhmViewController.xib; sourceTree = "<group>"; };
@@ -151,10 +151,10 @@
 		9CC9B32C137F448900EC912D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9CC9B35E137F467B00EC912D /* background.png */,
 				9C4106AB1380185B0036699D /* LED Circuit.png */,
 				9C2DF79F137F594600545A9D /* backbutton.png */,
 				9CC9B365137F508F00EC912D /* ohmcircuit.png */,
-				9CC9B35E137F467B00EC912D /* ard_card_top.pdf copy.png */,
 				9CC9B32D137F448900EC912D /* Ohm's Law-Info.plist */,
 				9CC9B32E137F448900EC912D /* InfoPlist.strings */,
 				9CC9B331137F448900EC912D /* Ohm's Law-Prefix.pch */,
@@ -253,7 +253,7 @@
 				9CC9B330137F448900EC912D /* InfoPlist.strings in Resources */,
 				9CC9B339137F448A00EC912D /* MainWindow.xib in Resources */,
 				9CC9B33F137F448A00EC912D /* Ohm_s_LawViewController.xib in Resources */,
-				9CC9B35F137F467B00EC912D /* ard_card_top.pdf copy.png in Resources */,
+				9CC9B35F137F467B00EC912D /* background.png in Resources */,
 				9CC9B364137F487200EC912D /* OhmViewController.xib in Resources */,
 				9CC9B366137F508F00EC912D /* ohmcircuit.png in Resources */,
 				9C2DF7A0137F594600545A9D /* backbutton.png in Resources */,
