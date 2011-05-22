@@ -148,7 +148,6 @@
 				9CC9B360137F487200EC912D /* OhmViewController.h */,
 				9CC9B361137F487200EC912D /* OhmViewController.m */,
 				9CC9B362137F487200EC912D /* OhmViewController.xib */,
-				9CC9B32C137F448900EC912D /* Supporting Files */,
 				9C4106AE1380188A0036699D /* LEDViewController.h */,
 				9C4106AF1380188A0036699D /* LEDViewController.m */,
 				9C4106B01380188A0036699D /* LEDViewController.xib */,
@@ -157,6 +156,7 @@
 				83E56CD71385F14900037B24 /* PowerViewController.xib */,
 				9CC910391387450F000BB215 /* UIScrollView+RMD.h */,
 				9CC9103A1387450F000BB215 /* UIScrollView+RMD.m */,
+				9CC9B32C137F448900EC912D /* Supporting Files */,
 			);
 			path = "Ohm's Law";
 			sourceTree = "<group>";

@@ -25,4 +25,7 @@
 - (IBAction)calculate:(id)sender;
 - (IBAction)goBack:(id)sender;
 
+- (void)kbWillShow:(NSNotification *)notif;
+- (void)kbWillHide:(NSNotification *)notif;
+
 @end

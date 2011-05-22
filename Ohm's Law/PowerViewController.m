@@ -47,11 +47,34 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    ((UIScrollView *)self.view).contentSize = self.view.bounds.size;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(kbWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(kbWillHide:) name:UIKeyboardWillHideNotification object:nil];
+}
+
+- (void)kbWillShow:(NSNotification *)notif {
+    CGRect ht = [[[notif userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
+
+    CGRect fr = self.view.frame;
+    fr.size.height -= ht.size.height;
+    self.view.frame = fr;
+    [self.view setNeedsLayout];
+}
+
+- (void)kbWillHide:(NSNotification *)notif {
+    CGRect ht = [[[notif userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue];
+    
+    CGRect fr = self.view.frame;
+    fr.size.height += ht.size.height;
+    self.view.frame = fr;
+    [self.view setNeedsLayout];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
