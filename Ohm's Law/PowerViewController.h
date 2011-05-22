@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PowerViewController : UIViewController {
+@interface PowerViewController : UIViewController<UITextFieldDelegate> {
     
 }
 

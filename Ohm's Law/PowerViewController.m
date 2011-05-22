@@ -161,6 +161,12 @@
     }
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self calculate:textField];
+    [textField resignFirstResponder];
+    return NO;
+}
+
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     [vField resignFirstResponder];
     [iField resignFirstResponder];
